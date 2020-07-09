@@ -8,7 +8,7 @@ PBR_GITURL := git+https://github.com/openstack-dev/pbr@d19459daa8616dd18fde016c2
 
 # We use special additional requirements in our mistral bundle!
 define INJECT_DEPS
-git+https://github.com/StackStorm/st2mistral.git@$(GITREV)#egg=st2mistral
+git+https://github.com/eg-lom/st2mistral.git@a13fb5003b3cfd8b674bbbb4b0ff788b7b79dd11#egg=st2mistral
 $(PBR_GITURL)
 endef
 export INJECT_DEPS
